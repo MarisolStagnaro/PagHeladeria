@@ -1,0 +1,139 @@
+header.masthead{
+    background-image:url(../img/portada4.jpg);
+    
+}
+
+
+.Descripcion{
+    height: auto;
+    margin: 50px 80px 50px 80px;
+}
+
+.Titulo{
+    text-align: center;
+    color: #ee0979;
+    font-size: 4rem;
+}
+
+.explicacion{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.PD{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.Historia{
+    margin:50px 80px 50px 80px;
+}
+
+
+.Cont{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.desc{
+    flex:20%;
+    font-size: 2rem;
+}
+
+.imagem img{
+    flex:30%;
+    height: 400px;
+    padding: 20px;
+}
+
+@media only screen and (max-width : 500px){
+    header.masthead{
+        height: 400px;
+    }
+    .portada{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .Historia , .Descripcion{
+        margin:20px 40px 20px 40px
+    }
+
+    .Titulo{
+        font-size: 1.5rem;
+    }
+
+    .explicacion{
+        font-size: 0.8rem;
+    }
+
+    .PD{
+        font-size: 0.7rem;
+    }
+
+    .Historia .Cont{
+        flex-direction: column;
+    }
+
+    .imagem{
+        height: 200px;
+    }
+
+    .imagem img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .desc{
+        flex:100%;
+        font-size: 0.8rem;
+    }
+
+}
+
+
+@media only screen and (min-width: 500px) and (max-width : 1050px){
+    header.masthead{
+        height: 400px;
+    }
+    .portada{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .Historia , .Descripcion{
+        margin:30px 40px 30px 40px
+    }
+
+    .Titulo{
+        font-size: 2.5rem;
+    }
+
+    .explicacion{
+        font-size: 1.5rem;
+    }
+
+    .PD{
+        font-size: 1.3rem;
+    }
+
+    .Historia .Cont{
+        flex-direction: column;
+    }
+
+    .imagem{
+        height: 350px;
+    }
+
+    .imagem img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .desc{
+        flex:100%;
+        font-size: 1.5rem;
+    }
+
+
+}

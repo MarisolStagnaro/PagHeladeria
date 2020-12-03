@@ -1,0 +1,101 @@
+
+header.masthead{
+    background-image:url(../img/helado2.jpg);
+}
+
+img {
+    border: 0;
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.sabores_col_izq {
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+
+.sabores_col_der {
+    padding-right: 50px;
+}
+
+.col-lg-6 {
+    padding-top:10px;
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    float: left;
+    background-color: white;
+}
+
+.Sabores{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.Sabores strong{
+    font-size: 1rem;
+    color:  #ee0979;
+}
+
+.Choco, .cremas, .alcohol, .dulceLeche, .Frutales{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 0.7rem;
+}
+
+.sabores_sop{
+    margin-right:80px ;
+}
+
+
+@media only screen and (max-width : 500px){
+    header.masthead{
+        height: 400px;
+    }
+    .portada{
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .Sabores{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .col-lg-6 {
+        width: 100%;
+    }
+    .sabores_col_izq {
+        padding-left: 10px;
+    }
+    
+    .sabores_col_der {
+        padding-right: 10px;
+    }
+
+    .sabores_sop{
+        margin-right:10px ;
+        margin-left:10px ;
+    }
+
+    .Choco, .cremas, .alcohol, .dulceLeche, .Frutales{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width : 1050px){
+    header.masthead{
+        height: 400px;
+    }
+    .portada{
+        font-size: 4rem;
+        text-align: center;
+    }
+}

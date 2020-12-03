@@ -1,0 +1,17 @@
+header.masthead{
+    height: 600px;
+}
+
+.masthead-content{
+    position: relative;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.portada{
+    font-size: 7rem;
+    color:#000;
+}
